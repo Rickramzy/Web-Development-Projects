@@ -1,1 +1,20 @@
 /* Write your code here: */
+h1, h2 {                    /*Grouping*/
+    color: blueviolet;
+}
+
+.box > p {                  /*Child*/
+    color: firebrick;
+}
+
+.box li {                   /*Decendant*/
+    color: blue;
+}
+
+li.done {                   /*Chained*/
+    color: green;
+}
+
+ul p.done {                 /*Multiple combiners*/
+    font-size: 0.5rem;
+}
